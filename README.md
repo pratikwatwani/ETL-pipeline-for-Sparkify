@@ -47,6 +47,15 @@ and four dimension tables:
            └── B
            └── C
 
+## Running the Project
+
+Step 1: In a shell, run ```create_tables.py``` with ```python create_tables.py``` which will call queries from ```sql_queries.py```
+
+Step 2: Run ```etl.py``` to execute the pipeline
+
+Step 3: Use ```test.ipynb``` notebook to view tables and other SQL queries (EDA shown below)
+
+
 ## Exploratory Data Analysis
 ### 1. Streaming by Location (Top 10)
 ```
