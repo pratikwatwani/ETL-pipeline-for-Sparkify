@@ -31,4 +31,18 @@ and four dimension tables:
         └── log_data
          └── 2018
           └── 11
-        └── user_data
+           └── 2018-11-01-events.json
+           └── 2018-11-012-events.json
+           .
+           .
+           └── 22018-11-30-events.json
+        └── song_data
+         └── A
+          └── A
+           └── A
+           └── B
+           └── C
+          └── B
+           └── A
+           └── B
+           └── C
