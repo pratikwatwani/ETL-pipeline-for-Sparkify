@@ -106,8 +106,8 @@ Terry Callier	        |  343
 ### 4. Streaming by week 
 ```
 week	 count
--------------
-1	   | 6820
+----------------
+1	   | 6813
 ```
 
 ### 5. Service type weight 
