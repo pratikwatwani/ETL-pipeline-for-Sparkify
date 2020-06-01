@@ -60,7 +60,7 @@ Step 3: Use ```test.ipynb``` notebook to view tables and other SQL queries (EDA 
 ### 1. Streaming by Location (Top 10)
 ```
 location	                            count
-----------------------------------------------
+--------------------------------------------------
 San Francisco-Oakland-Hayward, CA	    | 691
 Portland-South Portland, ME	            | 665
 Lansing-East Lansing, MI	            | 557
@@ -91,23 +91,23 @@ Macintosh	| 3000
 ```
 artist	            total_album_minutes
 ----------------------------------------
-Clp	              |  1209
-Casual	              |  957
-Faiz Ali Faiz	      |  599
-Montserrat Caballé    |  511
-Blue Rodeo	      |  491
-John Wesley	      |  485
-Trafik	              |  424
-Jinx	              |  407
-Steve Morse	      |  364
-Terry Callier	      |  343
+Clp	                |  605
+Faiz Ali Faiz	        |  599
+Montserrat Caballé	|  511
+Blue Rodeo	        |  491
+John Wesley	        |  485
+Casual	                |  478
+Trafik	                |  424
+Jinx	                |  407
+Steve Morse	        |  364
+Terry Callier	        |  343
 ```
 
 ### 4. Streaming by week 
 ```
 week	 count
--------------
-1	   | 6820
+----------------
+1	   | 6813
 ```
 
 ### 5. Service type weight 
