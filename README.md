@@ -18,7 +18,7 @@ and four dimension tables:
 4. time
 ```
 
-![Database](https://github.com/pratikwatwani/ETL-pipeline-for-Sparkify/blob/master/Database.png)
+![Database](https://github.com/pratikwatwani/ETL-pipeline-for-Sparkify/blob/master/database.png)
 
 ## Directory Structure
 
