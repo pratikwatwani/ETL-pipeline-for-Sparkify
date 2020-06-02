@@ -18,7 +18,7 @@ and four dimension tables:
 4. time
 ```
 
-![Database](https://github.com/pratikwatwani/ETL-pipeline-for-Sparkify/blob/master/Database.png)
+<img src="database.png">
 
 ## Directory Structure
 
@@ -62,45 +62,45 @@ Step 3: Use ```test.ipynb``` notebook to view tables and other SQL queries (EDA 
 location	                            count
 --------------------------------------------------
 San Francisco-Oakland-Hayward, CA	    | 691
-Portland-South Portland, ME	            | 665
-Lansing-East Lansing, MI	            | 557
-Chicago-Naperville-Elgin, IL-IN-WI	    | 475
+Portland-South Portland, ME	          | 665
+Lansing-East Lansing, MI	             | 557
+Chicago-Naperville-Elgin, IL-IN-WI	   | 475
 Atlanta-Sandy Springs-Roswell, GA	    | 456
-Waterloo-Cedar Falls, IA	            | 397
-Lake Havasu City-Kingman, AZ	            | 321
-Tampa-St. Petersburg-Clearwater, FL	    | 307
-San Jose-Sunnyvale-Santa Clara, CA	    | 292
-Sacramento--Roseville--Arden-Arcade, CA     | 270
+Waterloo-Cedar Falls, IA	             | 397
+Lake Havasu City-Kingman, AZ	         | 321
+Tampa-St. Petersburg-Clearwater, FL	  | 307
+San Jose-Sunnyvale-Santa Clara, CA	   | 292
+Sacramento--Roseville--Arden-Arcade, CA  | 270
 ```
 
 ### 2. Streaming by Platform
 ```
 platforms	     count
 ----------------------
-Windows NT 6.1	| 884
-Windows NT 5.1	| 955
-iPhone	        | 239
-X11	        | 1153
-compatible	| 11
-Windows NT 6.3	| 576
-Windows NT 6.2	| 2
-Macintosh	| 3000
+Macintosh       | 3000
+X11             | 1153
+Windows NT 5.1  | 955
+Windows NT 6.1  | 884
+Windows NT 6.3  | 576
+iPhone          | 239
+compatible      | 11
+Windows NT 6.2  | 2
 ```
 
 ### 3. Total album length for each artist (Top 10)
 ```
 artist	            total_album_minutes
 ----------------------------------------
-Clp	                |  605
-Faiz Ali Faiz	        |  599
-Montserrat Caballé	|  511
-Blue Rodeo	        |  491
-John Wesley	        |  485
-Casual	                |  478
-Trafik	                |  424
-Jinx	                |  407
-Steve Morse	        |  364
-Terry Callier	        |  343
+Clp	                    |  605
+Faiz Ali Faiz	          |  599
+Montserrat Caballé	     |  511
+Blue Rodeo	             |  491
+John Wesley	            |  485
+Casual	                 |  478
+Trafik	                 |  424
+Jinx	                   |  407
+Steve Morse	            |  364
+Terry Callier	          |  343
 ```
 
 ### 4. Streaming by week 
@@ -118,25 +118,36 @@ free   | 1229
 paid   | 5591
 ```
 
-### 6. Top artists by each location (Top 10)
+### 6. Type(Level) of user by Gender
 ```
-location	                                    name	      counts
-San Francisco-Oakland-Hayward, CA	      |  Marc Shaiman	|  691
-Portland-South Portland, ME	              |  Marc Shaiman	|  665
-Lansing-East Lansing, MI	              |  Marc Shaiman	|  557
-Chicago-Naperville-Elgin, IL-IN-WI	      |  Marc Shaiman	|  475
-Atlanta-Sandy Springs-Roswell, GA	      |  Marc Shaiman	|  456
-Waterloo-Cedar Falls, IA	              |  Marc Shaiman	|  397
-Lake Havasu City-Kingman, AZ	              |  Marc Shaiman   |  321
-Tampa-St. Petersburg-Clearwater, FL	      |  Marc Shaiman	|  307
-San Jose-Sunnyvale-Santa Clara, CA	      |  Marc Shaiman	|  292
-Sacramento--Roseville--Arden-Arcade, CA	      |  Marc Shaiman	|  270
+gender    level     sum
+-------------------------
+F      |  free   |  820
+F      |  paid   |  120
+M      |  free   |  595
+M      |  paid   |  28
 ```
 
-### 7. Average album length over years
+### 7. Top artists by each location (Top 10)
+```
+location	                                    name	      counts
+--------------------------------------------------------------------------
+San Francisco-Oakland-Hayward, CA	      |  Marc Shaiman	|  691
+Portland-South Portland, ME	            |  Marc Shaiman	|  665
+Lansing-East Lansing, MI	               |  Marc Shaiman	|  557
+Chicago-Naperville-Elgin, IL-IN-WI	     |  Marc Shaiman	|  475
+Atlanta-Sandy Springs-Roswell, GA	      |  Marc Shaiman	|  456
+Waterloo-Cedar Falls, IA	               |  Marc Shaiman	|  397
+Lake Havasu City-Kingman, AZ	           |  Marc Shaiman    |  321
+Tampa-St. Petersburg-Clearwater, FL	    |  Marc Shaiman	|  307
+San Jose-Sunnyvale-Santa Clara, CA	     |  Marc Shaiman    |  292
+Sacramento--Roseville--Arden-Arcade, CA    |  Marc Shaiman    |  270
+```  
+
+### 8. Average album length over years
 ```
 year	average_album_length
-0     |         245.57
+0     |            245.57
 1961  |	        156.39
 1964  |	        164.81
 1969  |	        148.04
