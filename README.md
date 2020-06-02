@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ETL Pipeline for Sparkify
 
 ## Description
